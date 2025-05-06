@@ -1,0 +1,169 @@
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --grey-color: #a7a7a7;
+  --text-shadow: 0 0 15px #ffffff;
+  --box-shadow: 0 0 15px #0000009f;
+  --border-white: 1px solid #fff;
+  --border-black: 1px solid #000;
+}
+
+body {
+  background: var(--white-color);
+  padding: 0;
+  margin: 0;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: var(--black-color);
+}
+
+.navbar ul li a {
+  color: var(--white-color);
+}
+
+.dropdown-menu {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.bi {
+  color: var(--white-color);
+}
+
+.btn {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  border: var(--border-black);
+}
+.navbar-brand img {
+  width: 80px;
+  height: auto;
+}
+
+/* menu hover */
+
+.navbar ul li a:hover {
+  text-shadow: var(--text-shadow);
+}
+
+.dropdown-menu a:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  text-shadow: var(--text-shadow);
+}
+
+.bi:hover {
+  text-shadow: var(--text-shadow);
+}
+
+.btn:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border: var(--border-white);
+}
+
+/* slider */
+
+#carouselExampleCaptions {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#carouselExampleCaptions img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* urunler */
+
+.carousel {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+
+.carousel .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-img-top {
+  max-height: 300px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.carousel-control-next-icon {
+  color: #000;
+}
+
+/* s.s.s */
+
+.accordion {
+  width: 60%;
+  margin: 200px auto;
+  background-color: var(--grey-color);
+}
+
+.accordion .accordion-button {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.accordion .accordion-button:focus {
+  box-shadow: var(--box-shadow);
+}
+
+/* footer */
+
+footer {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 40px 0;
+}
+.footer-logo {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+.footer-section h5 {
+  font-weight: bold;
+}
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+/* iletisim */
+
+.iletisim {
+  width: 50%;
+  margin: 100px auto;
+  color: var(--white-color);
+  background-color: #000000;
+  padding: 20px ;
+  border-radius: 25px;
+}
+
+.iletisim .form-control {
+  background-color: var(--white-color);
+  color: var(--white-color);
+}
+
+.iletisim .form-control::placeholder {
+  color: var(--black-color);
+}
+
+
